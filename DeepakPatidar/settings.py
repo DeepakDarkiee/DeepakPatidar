@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'x85+8*xy9hx5sk+&_$nv8in66tv30oe93^h3slh#(5d8k_^=e7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','deepakpatidar.herokuapp.com']
+ALLOWED_HOSTS = ['deepakpatidar.herokuapp.com']
 
 
 # Application definition
@@ -131,4 +131,3 @@ STATIC_ROOT =  os.path.join(BASE_DIR, 'static')
 # CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # MEDIA_URL = '/media/'
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
